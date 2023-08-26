@@ -1,0 +1,119 @@
+Build started at 2023-08-26T02:31:48.214412
+Main binary: C:\Users\Usuario\AppData\Local\Programs\Python\Python311\python.exe
+Build Options: 
+Python system: Windows
+The Meson build system
+Version: 1.2.1
+Source dir: C:\tool_rev\meson_toolrev
+Build dir: C:\tool_rev\meson_toolrev\builddir
+Build type: native build
+Project name: tutorial
+Project version: undefined
+-----------
+Detecting compiler via: `gcc --version` -> 0
+stdout:
+gcc (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders) 12.2.0
+Copyright (C) 2022 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+-----------
+Running command: gcc -E -dM -
+-----
+-----------
+Detecting linker via: `gcc -Wl,--version` -> 0
+stdout:
+GNU ld (Binutils for MinGW-W64 x86_64, built by Brecht Sanders) 2.39
+Copyright (C) 2022 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
+-----------
+stderr:
+collect2 version 12.2.0
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin c:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/liblto_plugin.dll -plugin-opt=c:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Usuario\AppData\Local\Temp\ccqE8kpw.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o -Lc:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0 -Lc:/mingw64/bin/../lib/gcc -Lc:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib -Lc:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib -Lc:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib -Lc:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../.. --version -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtend.o
+-----------
+Sanity testing C compiler: gcc
+Is cross compiler: False.
+Sanity check compiler command line: gcc sanitycheckc.c -o sanitycheckc.exe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command:  C:\tool_rev\meson_toolrev\builddir\meson-private\sanitycheckc.exe
+C compiler for the host machine: gcc (gcc 12.2.0 "gcc (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders) 12.2.0")
+C linker for the host machine: gcc ld.bfd 2.39
+-----------
+Detecting linker via: `gcc-ar --version` -> 0
+stdout:
+GNU ar (Binutils for MinGW-W64 x86_64, built by Brecht Sanders) 2.39
+Copyright (C) 2022 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) any later version.
+This program has absolutely no warranty.
+-----------
+-----------
+Detecting compiler via: `gcc --version` -> 0
+stdout:
+gcc (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders) 12.2.0
+Copyright (C) 2022 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+-----------
+Running command: gcc -E -dM -
+-----
+-----------
+Detecting linker via: `gcc -Wl,--version` -> 0
+stdout:
+GNU ld (Binutils for MinGW-W64 x86_64, built by Brecht Sanders) 2.39
+Copyright (C) 2022 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
+-----------
+stderr:
+collect2 version 12.2.0
+c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin c:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/liblto_plugin.dll -plugin-opt=c:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Usuario\AppData\Local\Temp\cczcJAtq.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o -Lc:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0 -Lc:/mingw64/bin/../lib/gcc -Lc:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib -Lc:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib -Lc:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib -Lc:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../.. --version -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtend.o
+-----------
+Sanity testing C compiler: gcc
+Is cross compiler: False.
+Sanity check compiler command line: gcc sanitycheckc.c -o sanitycheckc.exe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command:  C:\tool_rev\meson_toolrev\builddir\meson-private\sanitycheckc.exe
+C compiler for the build machine: gcc (gcc 12.2.0 "gcc (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders) 12.2.0")
+C linker for the build machine: gcc ld.bfd 2.39
+-----------
+Detecting linker via: `gcc-ar --version` -> 0
+stdout:
+GNU ar (Binutils for MinGW-W64 x86_64, built by Brecht Sanders) 2.39
+Copyright (C) 2022 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) any later version.
+This program has absolutely no warranty.
+-----------
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Build targets in project: 1
+
+Found ninja-1.11.0 at C:\mingw64\bin\ninja.EXE
+Running compile:
+Working directory:  C:\tool_rev\meson_toolrev\builddir\meson-private\tmptdxtjixr
+Code:
+ 
+-----------
+Command line: `gcc C:\tool_rev\meson_toolrev\builddir\meson-private\tmptdxtjixr\testfile.c -o C:\tool_rev\meson_toolrev\builddir\meson-private\tmptdxtjixr\output.obj -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs` -> 0
+stdout:
+install: c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/12.2.0/
+programs: =c:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/;c:/mingw64/bin/../libexec/gcc/;c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/x86_64-w64-mingw32/12.2.0/;c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/
+libraries: =c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/;c:/mingw64/bin/../lib/gcc/;c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/x86_64-w64-mingw32/12.2.0/;c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../x86_64-w64-mingw32/12.2.0/;c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib/;/mingw/lib/x86_64-w64-mingw32/12.2.0/;/mingw/lib/../lib/;c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/;c:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../;/mingw/lib/
+-----------
